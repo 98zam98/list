@@ -1,0 +1,112 @@
+:root 
+{
+    
+    --main-background-color: brown;
+    --main-font-color: burlywood;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+}
+
+div
+{
+    font-size: 1.1rem;
+}
+
+.app
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ADD
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+}
+
+.show
+{
+    width: 55vw;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5em;
+    border: 0.1em solid;
+    margin: 0.1em;
+}
+
+.show_item
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1em solid;
+    border-radius: 0.5em;
+    margin: 0.1em;
+}
+
+.show_item_comp
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-font-color);
+    color: var(--main-background-color);
+    border-radius: 0.5em;
+    border: 0.2em solid;
+}
+
+.x
+{
+    width: 20%;
+    cursor: pointer;
+}
+
+.fin
+{
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+    border-radius: 0.5em;
+    border: 0.2em solid ;
+    margin: 0.1em;
+    
+}
+
+.fin::placeholder 
+{ 
+    color: var(--main-font-color);
+}
+.ADDbtn
+{
+    
+    background-color: var(--main-font-color);
+    color: var(--main-background-color);
+    border-radius: 0.5em;
+    cursor: pointer;
+    padding: 0 0.4em;
+    margin: 0.3em;
+}
+
+
+
+
